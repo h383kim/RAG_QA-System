@@ -1,0 +1,16 @@
+RAG_QA-System/
+├── .env
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── setup.py                   (or pyproject.toml/poetry if you prefer)
+├── data/
+│   └── articles/              (your unzipped articles go here)
+├── db/                        (persist_directory for Chroma)
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── vectorstore.py
+│   └── query_chain.py
+└── main.py

@@ -1,0 +1,6 @@
+langchain==<version>
+openai==<version>
+tiktoken==<version>
+chromadb==<version>
+python-dotenv==<version>
+requests==<version>
